@@ -1,7 +1,9 @@
-import tour1 from "./images/tour-1.jpg";
-import tour2 from "./images/tour-2.jpg";
-import tour3 from "./images/tour-3.jpg";
-import tour4 from "./images/tour-4.jpg";
+import tour1 from "./media/tour-1.jpg";
+import tour2 from "./media/tour-2.jpg";
+import tour3 from "./media/tour-3.jpg";
+import tour4 from "./media/tour-4.jpg";
+import tour5 from "./media/tour-5.jpg";
+import tour6 from "./media/tour-6.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -40,7 +42,7 @@ export const tours = [
   {
     id: 1,
     image: tour1,
-    date: "august 26th, 2020",
+    date: "august 26th, 2024",
     title: "New Orleans",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "louisiana",
@@ -50,7 +52,7 @@ export const tours = [
   {
     id: 2,
     image: tour2,
-    date: "october 1th, 2020",
+    date: "october 1th, 2024",
     title: "best of j",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "indonesia",
@@ -60,7 +62,7 @@ export const tours = [
   {
     id: 3,
     image: tour3,
-    date: "september 15th, 2020",
+    date: "september 15th, 2024",
     title: "explore the canyons",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "arizona",
@@ -70,11 +72,31 @@ export const tours = [
   {
     id: 4,
     image: tour4,
-    date: "december 5th, 2019",
+    date: "december 5th, 2024",
     title: "air balloon",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "utah",
     duration: 20,
     cost: 3300,
+  },
+  {
+    id: 5,
+    image: tour5,
+    date: "February 1st, 2025",
+    title: "Circle Bay Oahu",
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: "Hawaii",
+    duration: 6,
+    cost: 2100,
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: "March 14th, 2025",
+    title: "Lake Tahoe",
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: "California",
+    duration: 11,
+    cost: 1400,
   },
 ];
