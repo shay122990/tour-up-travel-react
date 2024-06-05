@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.styles.css";
 import logo from "../../media/logo.jpg";
-import { pageLinks, socialLinks } from "../../data";
+import { socialLinks } from "../../data";
 import PageLinks from "../PageLinks/page-links.component";
 import SocialLink from "../SocialLink/social-link.component";
 
