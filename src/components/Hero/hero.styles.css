@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../../media/hero.jpg') center/cover no-repeat;
   }
   .hero-banner {
     text-align: center;
@@ -31,11 +33,7 @@
     color: var(--clr-white);
     border-color: var(--clr-white);
   }
-  @media screen and (min-width: 768px) {
-    .hero {
-      background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-        url('../../media/hero.jpg') center/cover no-repeat;
-    }
+  @media screen and (min-width: 992px) {
     .hero-banner {
       padding: 0;
     }

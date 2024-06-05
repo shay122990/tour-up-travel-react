@@ -1,5 +1,7 @@
+import React from "react";
 import { pageLinks } from "../../data";
 import PageLink from "../PageLink/page-link.component";
+
 const PageLinks = ({ parentClass, itemClass }) => {
   return (
     <ul className={parentClass} id="nav-links">
@@ -9,4 +11,5 @@ const PageLinks = ({ parentClass, itemClass }) => {
     </ul>
   );
 };
+
 export default PageLinks;
